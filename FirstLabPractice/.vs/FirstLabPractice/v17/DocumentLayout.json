@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\views\\portfolio\\bio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|solutionrelative:views\\portfolio\\bio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\views\\portfolio\\reference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|solutionrelative:views\\portfolio\\reference.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|c:\\users\\sazza\\onedrive - american international university-bangladesh\\desktop\\aiub\\advanced programming with .net\\code\\firstlabpractice\\views\\portfolio\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|solutionrelative:views\\portfolio\\education.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\views\\portfolio\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|solutionrelative:views\\portfolio\\projects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|solutionrelative:controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\views\\portfolio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|solutionrelative:views\\portfolio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EBA3ACC-8CFA-4E52-919C-762B10486A85}|FirstLabPractice.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reference.cshtml",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Views\\Portfolio\\Reference.cshtml",
+              "RelativeDocumentMoniker": "Views\\Portfolio\\Reference.cshtml",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Views\\Portfolio\\Reference.cshtml",
+              "RelativeToolTip": "Views\\Portfolio\\Reference.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T03:23:49.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Education.cshtml",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Views\\Portfolio\\Education.cshtml",
+              "RelativeDocumentMoniker": "Views\\Portfolio\\Education.cshtml",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Views\\Portfolio\\Education.cshtml",
+              "RelativeToolTip": "Views\\Portfolio\\Education.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T03:23:30.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Projects.cshtml",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Views\\Portfolio\\Projects.cshtml",
+              "RelativeDocumentMoniker": "Views\\Portfolio\\Projects.cshtml",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Views\\Portfolio\\Projects.cshtml",
+              "RelativeToolTip": "Views\\Portfolio\\Projects.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T03:22:42.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bio.cshtml",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Views\\Portfolio\\Bio.cshtml",
+              "RelativeDocumentMoniker": "Views\\Portfolio\\Bio.cshtml",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Views\\Portfolio\\Bio.cshtml",
+              "RelativeToolTip": "Views\\Portfolio\\Bio.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T03:17:28.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Views\\Portfolio\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Portfolio\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Views\\Portfolio\\Index.cshtml",
+              "RelativeToolTip": "Views\\Portfolio\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T03:14:34.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwB8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:11:33.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T03:06:35.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\FirstLabPractice\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:38:07.335Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

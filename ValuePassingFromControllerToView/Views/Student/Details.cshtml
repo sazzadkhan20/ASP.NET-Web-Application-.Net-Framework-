@@ -1,0 +1,69 @@
+﻿
+
+
+<h2>Student Details</h2>
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>CGPA</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Name</td>
+            <td>@item.CGPA</td>
+        </tr>
+    }
+</table>
+
+@* Use of ViewData
+    <table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>CGPA</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>@ViewData["S1Name"]</td>
+        <td>@ViewData["S1CGPA"]</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>@ViewData["S2Name"]</td>
+        <td>@ViewData["S1CGPA"]</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>@ViewData["S3Name"]</td>
+        <td>@ViewData["S3CGPA"]</td>
+    </tr>
+    </table>*@
+
+@* Use of View Bag
+    <table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>CGPA</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>@ViewBag.s4</td>
+        <td>3.97</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>@ViewBag.s2</td>
+        <td>3.97</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>@ViewBag.s3</td>
+        <td>3.61</td>
+    </tr>
+</table>*@

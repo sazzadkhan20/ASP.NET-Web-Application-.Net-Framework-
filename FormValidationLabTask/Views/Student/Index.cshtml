@@ -1,0 +1,29 @@
+﻿
+
+<h2>Student Information Validation</h2><br>
+
+<form action="" method="post">
+    <div>
+    <input type="text" Name ="name" placeholder="Name" class="form-control"><br>
+        <span class="text-danger text-center">@Html.ValidationMessage("name") </span>
+       </div>
+    <div>
+    <input type="text" Name ="userName" placeholder="UserName" class="form-control"><br>
+        <span class="text-danger text-center">@Html.ValidationMessage("userName")</span>
+        </div>
+    <div>
+    <input type="text" Name ="id" placeholder="ID" class="form-control"><br>
+        <span class="text-danger text-center" >@Html.ValidationMessage("id")</span>
+        </div>
+    <div>
+    <input type="date" Name ="dob" placeholder="Date-of-birth" class="form-control" /><br>
+        <span class="text-danger text-center">@Html.ValidationMessage("dob")</span>
+        </div>
+    <div>
+        <input type="text" Name="email" placeholder="Email" class="form-control" /><br>
+        <span class="text-danger text-center">@Html.ValidationMessage("email")</span>
+    </div>
+    <input type="submit" value="Submit" class="btn btn-success">
+    </form>
+
+
