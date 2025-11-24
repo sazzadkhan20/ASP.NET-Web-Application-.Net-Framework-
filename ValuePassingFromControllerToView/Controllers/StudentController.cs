@@ -25,6 +25,14 @@ namespace ValuePassingFromControllerToView.Controllers
         // Use of Model Binding
         public ActionResult Details()
         {
+            //if(true)
+            //{
+            //    return RedirectToAction("About","Home");
+            //}
+            //if(true)
+            //{
+            //    return Redirect("https://www.aiub.edu/"); // Get Request
+            //}
             List<Student> students = new List<Student>();
             students.Add(CreateStudent(101, "Sazzad", 3.97));
             students.Add(CreateStudent(102, "Oni", 3.97));
