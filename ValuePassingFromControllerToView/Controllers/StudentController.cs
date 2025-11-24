@@ -25,6 +25,7 @@ namespace ValuePassingFromControllerToView.Controllers
         // Use of Model Binding
         public ActionResult Details()
         {
+            // Redirect Process
             //if(true)
             //{
             //    return RedirectToAction("About","Home");
