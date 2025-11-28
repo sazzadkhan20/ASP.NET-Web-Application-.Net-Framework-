@@ -1,0 +1,45 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@if (TempData["StudentCreate"] != null)
+{
+    <p class="alert alert-info">@TempData["StudentCreate"]</p><br>
+}
+
+<h2>Student Data</h2>
+<br>
+
+<form action="" method="post">
+    <section>
+        <label class="form-label" style="font-size: large"><b>Student Information</b></label><br>
+        <input type="text" placeholder="ID" class="form-control" value="@Request["ID"]" name="ID"><br>
+        <input type="text" placeholder="UserName" class="form-control" value="@Request["UserName"]" name="UserName"><br>
+        <input type="text" placeholder="Email" class="form-control" value="@Request["Email"]" name="Email"><br>
+        <input type="submit" class="btn btn-success" vlaue="Submit">
+        <a href="/Student/Details" class="btn btn-info">All Details</a>
+    </section>
+</form>
+
+
+@*HttpRequestBase Object*@
+
+@*@{
+        ViewBag.Title = "Index";
+    }
+
+    <h2>@Request["UserName"]</h2><br>
+
+    <form action="" method="post">
+        <section>
+            <label class="form-label" style="font-size: large"><b>Student Information</b></label><br>
+            <input type="text" placeholder="ID" class="form-control" value="@Request["ID"]" name="ID"><br>
+            <input type="text" placeholder="UserName" class="form-control" value="@ViewBag.name" name="UserName"><br>
+            <input type="text" placeholder="Email" class="form-control" name="Email"><br>
+            <input type="submit" class="btn btn-success" vlaue="Submit">
+            <a href="/Student/Details" class="btn btn-info">All Details</a>
+        </section>
+    </form>*@
+

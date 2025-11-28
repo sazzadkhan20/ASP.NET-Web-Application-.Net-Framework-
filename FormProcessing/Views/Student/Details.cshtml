@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+<a href="/Student/Index" class="btn btn-dark">Back</a><br><br>
+@if (TempData["StudentCreate"] != null)
+    {
+        <p class="alert alert-info">@TempData["StudentCreate"]</p>
+    }
+
+<h2>All Student Information</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>E-mail</th>
+    </tr>
+    @foreach(var data in Model)
+            {
+                <tr>
+                    <td>@data.ID</td>
+                    <td>@data.UserName</td>
+                    <td>@data.Email</td>
+                </tr>
+            }
+</table>
+
+
