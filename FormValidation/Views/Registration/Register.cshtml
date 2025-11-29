@@ -1,0 +1,121 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+@functions{
+    //int a = 100;
+    bool CheckGender(string gender)
+    {
+        if (Model.UserGender != null && Model.UserGender == gender)
+            return true;
+        return false;
+    }
+
+    bool CheckProfession(string prof)
+    {
+        if (Model.UserProfession != null && Model.UserProfession == prof)
+            return true;
+        return false;
+    }
+
+    bool CheckHobbies(string hobby)
+    {
+        if (Model.UserHobbies != null)
+        {
+            foreach(var item in Model.UserHobbies)
+            {
+                if (item == hobby)
+                    return true;
+            }
+        }
+        return false;
+    }
+
+    string Hobbies(string[] hobbies)
+    {
+        string s = "";
+        for(int i=0; i< hobbies.Length; i++)
+        {
+            if (i != hobbies.Length - 1)
+                s += hobbies[i] + ", ";
+            else
+                s += hobbies[i];
+        }
+        return s;
+    }
+    }
+
+<h2>User Register</h2><br/>
+
+
+<form action="" method="post">
+    <input type="text" class="form-control" placeholder="ID" name="UserID" value="@Request["UserID"]">
+    <p class="text-danger">@Html.ValidationMessage("UserID")</p><br />
+    <input type="text" class="form-control" placeholder="Name" name="UserName" value="@Model.UserName">
+    <p class="text-danger">@Html.ValidationMessage("UserName")</p><br />
+    <input type="email" class="form-control" placeholder="Email" name="UserEmail" value="@Model.UserEmail">
+    <p class="text-danger">@Html.ValidationMessage("UserEmail")</p><br />
+    <input type="text" class="form-control" placeholder="NID" name="UserNID" value="@Model.UserNID">
+    <p class="text-danger">@Html.ValidationMessage("UserNID")</p><br />
+    <input type="text" class="form-control" placeholder="Phone Number" name="UserPhone" value="@Request["UserPhone"]">
+    <p class="text-danger">@Html.ValidationMessage("UserPhone")</p><br />
+    <input type="password" class="form-control" placeholder="UserPassword" name="UserPassword" value="@Model.UserPassword">
+    <p class="text-danger">@Html.ValidationMessage("UserPassword")</p><br />
+    Gender: <input type="radio" class="form-check-inline" name="UserGender" checked="@CheckGender("Male")" value="Male" />Male
+    <input type="radio" class="form-check-inline" name="UserGender" checked="@CheckGender("Female")" value="Female" />Female
+    <p class="text-danger">@Html.ValidationMessage("UserGender")</p><br />
+    Profession:
+    <select class="form-control" name="UserProfession">
+        <option selected disabled>---------------Choose---------------</option>
+        <option selected="@(Model.UserProfession != null && Model.UserProfession == "Student")">Student</option>
+        <option @(Model.UserProfession != null && Model.UserProfession == "Bussiness" ? "selected" : "")>Bussiness</option>
+        <option selected="@CheckProfession("Job")">Job</option>
+    </select>
+    <p class="text-danger">@Html.ValidationMessage("UserProfession")</p><br />
+    Hobbies: <input type="checkbox" class="form-check-inline" name="UserHobbies" checked="@CheckHobbies("Gaming")" value="Gaming" />Gaming
+    <input type="checkbox" class="form-check-inline" name="UserHobbies" checked="@CheckHobbies("Sports")" value="Sports" />Sports
+    <input type="checkbox" class="form-check-inline" name="UserHobbies" checked="@CheckHobbies("Travelling")" value="Travelling" />Travelling
+    <p class="text-danger">@Html.ValidationMessage("UserHobbies")</p><br/>
+    <input type="submit" class="btn btn-success" value="Submit"><br /><br /><br />
+</form>
+
+<h2>User Information</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>NID</th>
+        <th>Phone</th>
+        <th>Password</th>
+        <th>Gender</th>
+        <th>Profession</th>
+        <th>Hobbies</th>
+    </tr>
+    @foreach (var item in ViewBag.users)
+    {
+        <tr>
+            <td>@item.UserID</td>
+            <td>@item.UserName</td>
+            <td>@item.UserEmail</td>
+            <td>@item.UserNID</td>
+            <td>@item.UserPhone</td>
+            <td>@item.UserPassword</td>
+            <td>@item.UserGender</td>
+            <td>@item.UserProfession</td>
+            <td>@Hobbies(item.UserHobbies)</td>
+        </tr>
+    }
+</table>
+
+
+
+
+
+
+
+
+
+
