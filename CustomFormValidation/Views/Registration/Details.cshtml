@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+@if (TempData["StudentCreated"] != null)
+    {
+        <p class="alert alert-success">@TempData["StudentCreated"]</p>
+    }
+<h2>Details</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>UserName</th>
+        <th>Email</th>
+        <th>Date of Birth</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Name</td>
+            <td>@item.UserName</td>
+            <td>@item.Email</td>
+            <td>@item.DateOfBirth</td>
+        </tr>
+    }
+</table>
+
+
+

@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|c:\\users\\sazza\\onedrive - american international university-bangladesh\\desktop\\aiub\\advanced programming with .net\\code\\customformvalidation\\customattributes\\aiubemailattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|solutionrelative:customattributes\\aiubemailattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|c:\\users\\sazza\\onedrive - american international university-bangladesh\\desktop\\aiub\\advanced programming with .net\\code\\customformvalidation\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|c:\\users\\sazza\\onedrive - american international university-bangladesh\\desktop\\aiub\\advanced programming with .net\\code\\customformvalidation\\views\\registration\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|solutionrelative:views\\registration\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|c:\\users\\sazza\\onedrive - american international university-bangladesh\\desktop\\aiub\\advanced programming with .net\\code\\customformvalidation\\customattributes\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|solutionrelative:customattributes\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|c:\\users\\sazza\\onedrive - american international university-bangladesh\\desktop\\aiub\\advanced programming with .net\\code\\customformvalidation\\controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|solutionrelative:controllers\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|c:\\users\\sazza\\onedrive - american international university-bangladesh\\desktop\\aiub\\advanced programming with .net\\code\\customformvalidation\\views\\registration\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|solutionrelative:views\\registration\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|c:\\users\\sazza\\onedrive - american international university-bangladesh\\desktop\\aiub\\advanced programming with .net\\code\\customformvalidation\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB46C409-3D8A-4909-B6F9-B6D3EFB41636}|CustomFormValidation.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AiubEmailAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\CustomAttributes\\AiubEmailAttribute.cs",
+              "RelativeDocumentMoniker": "CustomAttributes\\AiubEmailAttribute.cs",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\CustomAttributes\\AiubEmailAttribute.cs*",
+              "RelativeToolTip": "CustomAttributes\\AiubEmailAttribute.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T10:27:49.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MinimumAgeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\CustomAttributes\\MinimumAgeAttribute.cs",
+              "RelativeDocumentMoniker": "CustomAttributes\\MinimumAgeAttribute.cs",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\CustomAttributes\\MinimumAgeAttribute.cs",
+              "RelativeToolTip": "CustomAttributes\\MinimumAgeAttribute.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-30T06:04:33.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\Models\\Student.cs*",
+              "RelativeToolTip": "Models\\Student.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T21:04:16.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\Views\\Registration\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Registration\\Details.cshtml",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\Views\\Registration\\Details.cshtml",
+              "RelativeToolTip": "Views\\Registration\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T21:03:54.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "register.cshtml",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\Views\\Registration\\register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Registration\\register.cshtml",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\Views\\Registration\\register.cshtml",
+              "RelativeToolTip": "Views\\Registration\\register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-29T21:03:41.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\Controllers\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistrationController.cs",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\Controllers\\RegistrationController.cs",
+              "RelativeToolTip": "Controllers\\RegistrationController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T21:01:45.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\sazza\\OneDrive - American International University-Bangladesh\\Desktop\\AIUB\\ADVANCED PROGRAMMING WITH .NET\\Code\\CustomFormValidation\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-30T10:43:51.55Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
