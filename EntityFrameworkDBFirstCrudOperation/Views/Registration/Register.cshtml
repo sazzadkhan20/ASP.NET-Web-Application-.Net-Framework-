@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+@functions{
+    //int a = 100;
+    bool CheckGender(string gender)
+    {
+        if (Model.Gender != null && Model.Gender == gender)
+            return true;
+        return false;
+    }
+
+    bool CheckProfession(string prof)
+    {
+        if (Model.Profession != null && Model.Profession == prof)
+            return true;
+        return false;
+    }
+}
+
+<h2>Student Registration</h2>
+<br />
+
+
+<form action="" method="post">
+
+    <input type="text" class="form-control" placeholder="Name" name="Name" value="@Model.Name"><br />
+    <input type="email" class="form-control" placeholder="Email" name="Email" value="@Model.Email"><br/>
+    <input type="text" class="form-control" placeholder="NID" name="NID" value="@Model.NID"><br />
+    <input type="text" class="form-control" placeholder="Phone Number" name="Phone" value="@Request["Phone"]"><br />
+    <input type="password" class="form-control" placeholder="UserPassword" name="Password" value="@Model.Password"><br />
+    Gender: <input type="radio" class="form-check-inline" name="Gender" checked="@CheckGender("Male")" value="Male" />Male
+    <input type="radio" class="form-check-inline" name="Gender" checked="@CheckGender("Female")" value="Female" />Female<br />
+    Profession:
+    <select class="form-control" name="Profession">
+        <option selected disabled>---------------Choose---------------</option>
+        <option selected="@(Model.Profession != null && Model.Profession == "Student")">Student</option>
+        <option @(Model.Profession != null && Model.Profession == "Bussiness" ? "selected" : "")>Bussiness</option>
+        <option selected="@CheckProfession("Job")">Job</option>
+    </select><br />
+    Hobbies: <input type="checkbox" class="form-check-inline" name="Gaming" checked="@Request["Gaming"]" value="Gaming" />Gaming
+    <input type="checkbox" class="form-check-inline" name="Sports" checked="@Request["Sports"]" value="Sports" />Sports
+    <input type="checkbox" class="form-check-inline" name="Travelling" checked="@Request["Travelling"]" value="Travelling" />Travelling<br />
+    <input type="submit" class="btn btn-success" value="Submit"><br /><br /><br />
+</form>
+
+
+
+
+
+
+
+
+
+

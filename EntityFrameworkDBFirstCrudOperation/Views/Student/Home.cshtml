@@ -1,0 +1,59 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+}
+
+@if (TempData["StudentDelete"] != null)
+{
+    <p class="alert alert-success">@TempData["StudentDelete"]</p>
+}
+
+@if (TempData["StudentCreate"] != null)
+{
+    <p class="alert alert-success">@TempData["StudentCreate"]</p>
+}
+
+@if (TempData["DataUpdate"] != null)
+{
+    <p class="alert alert-success">@TempData["DataUpdate"]</p>
+}
+
+@if (Model.Count > 0)
+{
+    <h2>Student Details</h2>
+    <br />
+
+    <div class="row">
+    <form action="/Student/Search">
+        <input type="text" name="ID" placeholder="Search by Name" class="form-control col-md-3" />
+        <input type="submit" value="Search" class="btn btn-primary col-md-1" />
+    </form>
+</div>
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+            {
+    <tr>
+        <td>@item.ID</td>
+        <td>@item.Name</td>
+        <td>@item.Email</td>
+        <td>
+            <a href="/Student/Details/@item.ID">Details</a>
+            <a href="/Student/Edit/@item.ID">Edit</a>
+            <a href="/Student/Delete/@item.ID">Delete</a>
+        </td>
+    </tr>
+            }
+</table>
+}
+else
+{
+<h2>No Student Data Found</h2>
+}
+<a href="/Registration/Register" class="btn btn-success">Go to Registration</a>
+
