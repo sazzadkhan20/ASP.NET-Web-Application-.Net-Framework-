@@ -25,7 +25,7 @@ namespace CustomFormValidation.Models
         [MinimumAge(18,ErrorMessage ="age must be greater than 18 years")]
         public string DateOfBirth {  get; set; }
 
-        //[AiubEmail]
+        [AiubEmail]
         public string Email { get; set; }
     }
 }
