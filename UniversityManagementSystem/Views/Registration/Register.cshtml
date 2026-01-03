@@ -1,0 +1,26 @@
+﻿
+@{
+        ViewBag.Title = "Register";
+}
+
+@functions{   
+    public string StringBuilder(string name, string code)
+    {
+        return " " + name + "  " + code+"  ";
+    }
+}
+
+
+<h2>Registration Process</h2>
+<br />
+<br />
+<h3>Offered Courses:</h3>
+<br/>
+<form method="post">
+
+    @foreach (var course in Model)
+    {
+        <input type="checkbox" name="Courses[]" value="course.Id" /> @StringBuilder(course.Name, course.Code) <span>(@course.CourseStudentRegistrations.Count/@course.Capacity)</span> <br />
+    }
+    <input type="submit" class="btn btn-success" value="Submit" /><br /><br />
+</form>

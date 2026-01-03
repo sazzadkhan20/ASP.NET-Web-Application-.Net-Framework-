@@ -1,0 +1,39 @@
+﻿
+@{
+    ViewBag.Title = "SignUp";
+}
+
+@functions
+{
+    bool DepartmentChoice(string dept)
+    {
+        if (Model.DepartmentName != null && Model.DepartmentName == dept) return true;
+        return false;
+    }
+}
+
+<h2>SignUp</h2>
+<br/>
+<br/>
+
+<form method="post">
+    <input type="text" class="form-control" placeholder="ID" name="UserID" value="@Model.UserID" />
+    <p class="text-danger">@Html.ValidationMessage("UserID")</p><br />
+    <input type="text" class="form-control" placeholder="Name" name="Name" value="@Model.Name"/>
+    <p class="text-danger">@Html.ValidationMessage("Name")</p><br />
+    <input type="text" class="form-control" placeholder="Email" name="Email" value="@Model.Email"/>
+    <p class="text-danger">@Html.ValidationMessage("Email")</p><br />
+    <input type="password" class="form-control" placeholder="password" name="Password" value="@Model.Password"/>
+    <p class="text-danger">@Html.ValidationMessage("Password")</p><br />
+    <select class="form-control" name="DepartmentName">
+        <option selected disabled>-----Choose Your Department-----</option>
+        <option selected="@DepartmentChoice("FST")">FST</option>
+        <option selected="@DepartmentChoice("FE")">FE</option>
+        <option selected="@DepartmentChoice("English")">English</option>
+        <option selected="@DepartmentChoice("FBA")">FBA</option>
+        <option selected="@DepartmentChoice("FASS")">FASS</option>
+    </select><br />
+    <p class="text-danger">@Html.ValidationMessage("DepartmentName")</p><br />
+    <input type="submit" class="btn btn-primary" value="Submit" /><br />
+</form>
+

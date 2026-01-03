@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+}
+
+<h2>WelCome to AIUB</h2>
+<br />
+<br />
+@if (Session["user"] != null)
+{
+    <h3>@ViewBag.userName</h3>
+    <br />
+    <form method="post" action="/home/home">
+        <button type="submit" name="status" value="logout" class="btn btn-primary">
+            Logout
+        </button>
+    </form>
+    <br/>
+    <a href="/registration/register" class="btn btn-success" value="registration" name="status">Go To Registration</a>
+    <br />
+    <br />
+    if (Model != null && Model.Count > 0)
+    {
+        <label>Enlisted Course:</label>
+        <br />
+
+        <table class="table-bordered">
+            <th>Course Name</th>
+            <th>Course Code</th>
+            <th>Course Credit</th>
+            <th>Course Type</th>
+            <th>Course Capacity</th>
+            @foreach (var course in Model)
+            {
+                <td>@course.AIUB_Course.Name</td>
+                <td>@course.AIUB_Course.Code</td>
+                <td>@course.AIUB_Course.Credit</td>
+                <td>@course.AIUB_Course.Type</td>
+                <td>@course.AIUB_Course.Capacity</td>
+            }
+        </table>
+    }
+    else
+    {
+        <h2>No Course Enrolled Yet </h2>
+    }
+}
+    else
+    {
+    <a href="/home/signin" class="btn btn-primary" value="signIn" name="status">SignIn</a>
+    <a href="/home/signup" class="btn btn-success" value="signUp" name="status">SignUp</a>
+}
+
+

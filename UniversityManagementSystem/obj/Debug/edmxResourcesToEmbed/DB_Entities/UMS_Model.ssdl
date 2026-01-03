@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UMS_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AIUB_Course">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Code" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Credit" Type="int" Nullable="false" />
+    <Property Name="Capacity" Type="int" Nullable="false" />
+    <Property Name="Type" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="DepartmentId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AIUBStudents">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DepartmentId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CourseStudentRegistration">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="StudentId" Type="int" Nullable="false" />
+    <Property Name="CourseId" Type="int" Nullable="false" />
+    <Property Name="RegistrationId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Departments">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Registrations">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Date" Type="date" Nullable="false" />
+    <Property Name="Status" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="StudentId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_AIUB_Course_Departments">
+    <End Role="Departments" Type="Self.Departments" Multiplicity="1" />
+    <End Role="AIUB_Course" Type="Self.AIUB_Course" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departments">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AIUB_Course">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AIUBStudents_Departments">
+    <End Role="Departments" Type="Self.Departments" Multiplicity="1" />
+    <End Role="AIUBStudents" Type="Self.AIUBStudents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departments">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AIUBStudents">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CourseStudentRegistration_AIUB_Course">
+    <End Role="AIUB_Course" Type="Self.AIUB_Course" Multiplicity="1" />
+    <End Role="CourseStudentRegistration" Type="Self.CourseStudentRegistration" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AIUB_Course">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CourseStudentRegistration">
+        <PropertyRef Name="CourseId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CourseStudentRegistration_AIUBStudents">
+    <End Role="AIUBStudents" Type="Self.AIUBStudents" Multiplicity="1" />
+    <End Role="CourseStudentRegistration" Type="Self.CourseStudentRegistration" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AIUBStudents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CourseStudentRegistration">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CourseStudentRegistration_Registrations">
+    <End Role="Registrations" Type="Self.Registrations" Multiplicity="1" />
+    <End Role="CourseStudentRegistration" Type="Self.CourseStudentRegistration" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Registrations">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CourseStudentRegistration">
+        <PropertyRef Name="RegistrationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Registrations_AIUBStudents">
+    <End Role="AIUBStudents" Type="Self.AIUBStudents" Multiplicity="1" />
+    <End Role="Registrations" Type="Self.Registrations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AIUBStudents">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Registrations">
+        <PropertyRef Name="StudentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="UMS_DBModelStoreContainer">
+    <EntitySet Name="AIUB_Course" EntityType="Self.AIUB_Course" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AIUBStudents" EntityType="Self.AIUBStudents" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="CourseStudentRegistration" EntityType="Self.CourseStudentRegistration" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Departments" EntityType="Self.Departments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Registrations" EntityType="Self.Registrations" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_AIUB_Course_Departments" Association="Self.FK_AIUB_Course_Departments">
+      <End Role="Departments" EntitySet="Departments" />
+      <End Role="AIUB_Course" EntitySet="AIUB_Course" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AIUBStudents_Departments" Association="Self.FK_AIUBStudents_Departments">
+      <End Role="Departments" EntitySet="Departments" />
+      <End Role="AIUBStudents" EntitySet="AIUBStudents" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CourseStudentRegistration_AIUB_Course" Association="Self.FK_CourseStudentRegistration_AIUB_Course">
+      <End Role="AIUB_Course" EntitySet="AIUB_Course" />
+      <End Role="CourseStudentRegistration" EntitySet="CourseStudentRegistration" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CourseStudentRegistration_AIUBStudents" Association="Self.FK_CourseStudentRegistration_AIUBStudents">
+      <End Role="AIUBStudents" EntitySet="AIUBStudents" />
+      <End Role="CourseStudentRegistration" EntitySet="CourseStudentRegistration" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CourseStudentRegistration_Registrations" Association="Self.FK_CourseStudentRegistration_Registrations">
+      <End Role="Registrations" EntitySet="Registrations" />
+      <End Role="CourseStudentRegistration" EntitySet="CourseStudentRegistration" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Registrations_AIUBStudents" Association="Self.FK_Registrations_AIUBStudents">
+      <End Role="AIUBStudents" EntitySet="AIUBStudents" />
+      <End Role="Registrations" EntitySet="Registrations" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
