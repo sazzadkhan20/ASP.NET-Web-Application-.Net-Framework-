@@ -18,6 +18,7 @@ namespace UniversityManagementSystem.DB_Entities
         public UMS_DBEntities()
             : base("name=UMS_DBEntities")
         {
+            // this.Configuration.LazyLoadingEnabled = false;  
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
